@@ -97,6 +97,7 @@ On the head-mounted GoPro side, make sure it can record both audio and video and
 7. When you hear the reminder sound from the smartphone, it means that this session data collection has finished and please stop the GoPro recording.
 8. Get the smartphone out of your pocket, wait for the ```DATA COLLECTING``` being enabled (the APP is saving the motion sensor, audio recording and Wi-Fi CSI recoding to the storage, which typically needs 30 s for a 300 s session. Please do not terminate the APP in this period.).
 9. Finally, you will see the following UI after each session
+
 ![appui_finish](./img/appui_finish.jpg)
 
 The packet number means the overall Wi-Fi packets received by Nexmon CSI. Ideally, the packet number will be close to $$\text{packets per second} \times \text{seconds for each session}$$.
@@ -201,10 +202,24 @@ The following the Figure shows the process of annotation. We use Typeahead to qu
 ![annotationprocess](./img/annotationprocess.png)
 
 Note that, in this step, we only annotate the video based on the video timestamp. We also need to synchronize the timestamp with the egocentric smartphone data. As show in [Sec. Data preprocessing](#data-preprocessing), we use the audio recording from smartphone and the GoPro to achieve such time synchronization.
+We provide a script ```/anontation/syn.py``` to check the data and synchronization the label with egocentric smartphone and video.
+Specifically, it will check the dataset by the following steps.
 
+1. Check Video Smartphone Dataset Number and Correspondence
+
+2. Check Video Labels
+    - All files labelled?
+    - Any video is not loaded to the labelling tool?
+
+3. Check Sampling Rate for each modality
+
+4. Sync the labelled video data with smartphone data by using the ‘end’ label
+
+5. Visualization
 
 
 ## Data segmentation and cleaning
+
 
 ## MMFWSF
 
