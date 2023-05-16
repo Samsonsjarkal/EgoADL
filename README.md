@@ -11,7 +11,7 @@ In this repo we will opensource
 
 - [Data annotation](#data-annotation-tool): Application from [Action-annotation](https://github.com/devyhia/action-annotation) and how we use it.
 
-- [Data segmentation and cleaning](#data-segmentation-and-cleaning): segment and clean both the data and annotation labels.
+- [Data cleaning and segmentation](#data-cleaning-and-segmentation): segment and clean both the data and annotation labels.
 
 - [Deep learning algorithm](#mmfwsf), i.e.,  Multi-Modal Frame-Wise Slow-Fast (MMFWSF) transformer [[1]](#1).
 
@@ -217,9 +217,39 @@ Specifically, it will check the dataset by the following steps.
 
 5. Visualization
 
+## Data cleaning and segmentation
 
-## Data segmentation and cleaning
+### Data cleaning
 
+We will clean the labels by generating the ```label_clean.aucvl``` from ```label_sync.aucvl``` using ```\dataclean\clean_label.py```.
+
+We organize the dataset as follows:
+```/dataset/userid```
+- ```label```
+    - ```label.aucvl```: the original annotation file
+    - ```label_sync.aucvl```: the annotation file after synchronization
+    - ```label_clean.aucvl```: the annotation file after synchronization and cleaning
+- ```smartphone```
+    each session will have 5 fives:
+    - ```[timestamp]_acc.csv```
+    - ```[timestamp]_gyro.csv```
+    - ```[timestamp].pcap```
+    - ```[timestamp].wav```
+    - ```[timestamp].npz```
+- ```video```
+    - ```[timestamp].MP4```
+
+
+### Data segmentation
+We segment the data for each single human behavior by using script ```/dataseg/segment.py```.
+After that we will recieve a ```csv``` file that contains all the annotation information of the dataset, including the following columns
+- ```ID```: UUID 
+- ```duration```: duration (unit:second)
+- ```rate```: the ratio of the data that has effective Wi-Fi CSI
+- ```npz```: npz file path
+- ```semantics```: activities
+- ```npz path```: npz file path of the session
+- ```starttime```: start time of the human behavior in that session
 
 ## MMFWSF
 

@@ -1,0 +1,225 @@
+cut something,cut something,1
+put spice on something,put spice on something,1
+lie on sofa couch,lie on sofa couch,1
+plug in socket,plug in socket,1
+organize food,organize food,1
+tidy up towel,tidy up towel,1
+open curtain,opening curtain,1
+pick up toothbrush,pick up toothbrush,1
+talk on phone camera,talk on phone camera,1
+put something in closet cabinet,put something in closet cabinet,1
+boil water,boiling water,1
+turn on cooker hood,turn on cooker hood,1
+throw blanket somewhere,throw blanket somewhere,1
+watch look outside of window,watch look outside of window,1
+clean electric shaver,clean electric shaver,1
+stand on chair,stand on chair,1
+clean table,cleaning table,1
+wash towel,wash towel,1
+laugh,laugh,1
+wear glass,wear glass,1
+take off glass,take off glass,1
+take chop board somewhere,take chop board somewhere,1
+put blanket somewhere,put blanket somewhere,1
+clean keyboard,clean keyboard,1
+use spoon not eat,use spoon not eat,1
+take paper notebook from somewhere,take paper notebook from somewhere,1
+throw clothes somewhere,throw clothes somewhere,1
+organize refrigerator,organize refrigerator,1
+take bag from somewhere,take bag from somewhere,1
+grab item out of fridge,grab item out of fridge,1
+plug in cable,plug in cable,1
+fix light,fix light,1
+put bag somewhere,put bag somewhere,1
+sit on floor,sit on floor,1
+put spoon on table,put spoon on table,1
+blow nose,blow nose,1
+take chopstick,take chopstick,1
+put lid somewhere,put lid somewhere,1
+kick something,kick something,1
+take spoon,take spoon,1
+take towel from somewhere,take towel from somewhere,2
+put towel somewhere,put towel somewhere,2
+operate microwave,operating microwave,2,operating microscope,1
+cover pot,cover pot,2
+walk,walk through doorway,2
+pour drink,pour drink,2
+hold food,hold food,2
+wash something with towel,wash something with towel,2
+cook dumpling,cooking dumpling,2
+take something from box,take something from box,2
+knead paper,knead paper,2
+put plastic wrap,put plastic wrap,2
+take plastic wrap,take plastic wrap,2
+take box from somewhere,take box from somewhere,2
+take lid from somewhere,take lid from somewhere,2
+open air valve,open air valve,2
+stand to sit,stand to sit,2
+sit at table,sit at table,2
+stand,stand,2
+organize bed,organize bed,2
+close bag,closing bag,2
+put laptop somewhere,put laptop somewhere,2
+grab knife,grab knife,3
+take phone from somewhere,take phone camera from somewhere,3
+take pot from somewhere,take pot somewhere,3,take pot from somewhere,0
+wash cup glass bottle,wash cup glass bottle,3
+take vacuum from somewhere,take vacuum from somewhere,3
+play back music,play back music,3
+wash blanket,wash blanket,3
+cook rice,cooking rice,3
+dry pot,dry pot,3
+blending water,blending water,3
+sneeze,sneeze,3
+arrange cable,arrange cable,3
+squeeze food,squeeze food,3
+take off glove,take off glove,4
+put on lipstick,put on chopstick lipstick,4
+put toothbrush,put toothbrush,4
+take pot from somewheretake pot from somewhere,4
+wash sink,wash sink,4
+sit in bed,sit in bed,4
+open microwave,open microwave,5
+close microwave,closing microwave,5
+put chop board somewhere,put chop board somewhere,5
+put spoon somewhere,put spoon somewhere,5
+pack tableware,pack tableware,5
+take dish from somewhere,take dish from somewhere,5
+hold phone,hold phone camera,5
+use soap,use soap,5
+put mop somewhere,put mop somewhere,5
+take mop,take mop,5
+dry blanket,dry blanket,5
+cover plastic wrap,cover plastic wrap,5
+clean hand,clean hand,5
+take spatula,take spatula,5
+wear glove,wear glove,6
+open bag,open bag,6
+trim vegetable,trim vegetable,6
+hold clothes,hold clothes,6
+tidy up table,tidy up table,6
+put phone somewhere,put phone camera somewhere,6
+put box somewhere,put box somewhere,7
+close box,closing box,7
+wash chop board,wash chop board,7
+squeeze toothpaste on toothbrush,squeeze toothpaste on toothbrush,7
+flush toilet,flush toilet,7
+yell,yell,7
+pour oil,pour oil,8
+scroll on trackpad phone,scroll on trackpad phone,8
+scrape the pan,scrap off pan,8
+put spatula,put spatula,9
+move closet cabinet,move closet cabinet,9
+fix hair,fix hair,9
+serve food,serve food,9
+adjust gopro,adjust gopro,10
+open trashbin,open trashbin,10
+put dish somewhere,put dish somewhere,10
+wash toothbrush,wash toothbrush,10
+stand up from bed,stand up from bed,10
+hold vacuum,hold vacuum,11
+lie on bed,lie on bed,11
+put knife somewhere,put knife somewhere,12,put knife on table,1
+close drawer,close drawer,12
+open drawer,open drawer,13
+clean,cleaning,13
+dry hand,dry hand,13
+wash vegetable,wash vegetable,14
+wash rice,wash rice,14
+stand up from somewhere,stand up from somewhere,14
+close bottle,closing bottle,14
+type on phone,type on phone,14
+put something on table,put something on table,15
+take plate from somewhere,take plate from somewhere,15
+turn off garbage disposal,turn off garbage disposal,16
+wash face,wash face,16
+move plate,move plate,16
+put on lid,put on lid,16,closing lid,1,close lid,1
+talk to someone,talk to someone,16
+turn off stove,turn off stove,17
+open window,opening window,17
+beat egg,beat egg,17
+throw food somewhere,throw food somewhere,17
+squeeze bottle,squeeze bottle,17
+pick up dish pot,pick up dish pot,18
+move chair,move chair,18
+cough,cough,18
+squeeze hand soap,squeeze hand soap,18
+knead food,knead food,18
+close window,closing window,19
+pour rice,pour rice,19
+open lid,open lid,19,open pot,1
+stand up from sofa couch,stand up from sofa couch,20
+sit on sofa couch,sit on sofa couch,20
+turn on stove,turn on stove,20
+sprinkle condiment,sprinkle condiment,20
+hold cup glass bottle of something,hold cup glass bottle of something,20
+take off clothes,put away clothes,20
+knock door,knock door,20
+cut food,cut food,20
+crack egg,crack egg,21
+take clothes from somewhere,take clothes from somewhere,21
+put on clothes,put on clothes,22
+use scissors,use scissors,22
+grab tissue,grab tissue,24
+turn on garbage disposal,turn on garbage disposal,24
+turn on faucet,turn on faucet,25
+turn off faucet,turn off faucet,25
+wash dish,wash dish,25
+wash hand,wash hand,25
+close door,closing door,25
+open door,open door,25
+put food somewhere,put food somewhere,25
+put clothes somewhere,put clothes somewhere,25
+shave beard,shave beard,25
+mop floor,mop floor,25
+pour food,pour food,27
+turn off light,turn off light,28
+open box,open box,28
+move click mouse,move clicking mouse,28
+cut nail,cut nail,28
+pour condiment,pour condiment,29
+exercise,exercise,29
+fill water,filling water,29,fill cup with water,13
+rinse mouth,rinse mouth,31
+scrol mouse,scrolling mouse,31
+wipe clean,wipe cleaning,32
+open blind,open blind,32
+run,run,32
+type on keyboard,type on keyboard,33
+wash food,wash food,34
+turn on light,turn on light,35
+open bottle,open bottle,35
+drink,drink from cup glass bottle,38,drinking,16
+put plate somewhere,put plate somewhere,39
+stand up from chair,stand up from chair,40,get up from chair,13
+pour something into cup glass bottle,pour something into cup glass bottle,41
+brush teeth,brush teeth,42
+sit in chair,sit in chair,51
+put pot on stove,put pot on stove,52
+bend down,bend down,55
+put pot somewhere,put pot somewhere,57
+take cup glass bottle from somewhere,take cup glass bottle from somewhere,61
+use spoon eat,use spoon eating,63
+chop meat,chop meat,66
+throw trash,throw trash,68
+operate vacuum,operating vacuum,69
+take food from somewhere,take food from somewhere,75
+close refrigerator,closing refrigerator,77
+pour water,pour water,81,pour drink,1
+open refrigerator,open refrigerator,86
+chop vegetable,chop vegetable,87
+peel vegetable,peel vegetable,92,peel food,44,peel garlic,6
+close closet cabinet,closing closet cabinet,112
+open closet cabinet,open closet cabinet,124
+put cup glass bottle somewhere,put cup glass bottle somewhere,174
+cook,cooking,184,cook something,5
+work play on laptop,work play on laptop,195,watch laptop or something on laptop,7
+eat,eat,197,eat sandwich,4,eat something,25
+walk,walk,562
+end,end,0
+take knife somewhere,take knife somewhere,0
+chop fruit,chop fruit,0
+spray cleaner,spray cleaner,0
+play with phone,play with phone camera,0
+watch video on phone,watch video on smartphone,0
