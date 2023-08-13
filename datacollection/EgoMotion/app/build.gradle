@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.kesun.egomotion"
+        applicationId "com.egoadl.egomotion"
         minSdkVersion 22
         targetSdkVersion 30
         versionCode 1

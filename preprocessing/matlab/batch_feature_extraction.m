@@ -11,7 +11,7 @@ for i=1:size(A,2)
     end
 end
 
-data_path = 'C:\Users\kesun\KeSun\Self-supervised\EgoLife\dataset\';
+data_path = '';
 
 vis = 1;
 for i=1:size(label,1)
