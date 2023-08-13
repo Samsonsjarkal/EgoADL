@@ -1,4 +1,4 @@
-file_label_path = 'C:\Users\kesun\KeSun\Self-supervised\EgoLife\annotation\datacollect.txt';
+file_label_path = '';
 file_label=fopen(file_label_path,'r');
 formatSpec='%c';
 A=fscanf(file_label,formatSpec);
