@@ -255,8 +255,7 @@ After that we will recieve a ```csv``` file that contains all the annotation inf
 
 ## Reference
 
-<a id="1">[1]</a>  Ke Sun, Chunyu Xia, and Xinyu Zhang. Multimodal Daily-life Logging in Free-living Environments
-Using Non-Visual Egocentric Sensors on a Smartphone. In-submission, 2023. 
+<a id="1">[1]</a> Multimodal Daily-life Logging in Free-living Environments Using Non-Visual Egocentric Sensors on a Smartphone. In-submission, 2023. 
 
 <a id="2">[2]</a> Francesco Gringoli, Matthias Schulz, Jakob Link, Matthias Hollick.  Free your CSI: A channel state information extraction platform for modern Wi-Fi chipsets. ACM WiSec, 2019.
 
