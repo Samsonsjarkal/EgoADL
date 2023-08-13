@@ -1,4 +1,4 @@
-package com.kesun.egomotion;
+package com.egoadl.egomotion;
 
 import android.util.Log;
 
