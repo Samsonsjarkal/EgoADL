@@ -1,19 +1,4 @@
 #!/usr/bin/env/python3
-"""
-Recipe for "direct" (speech -> semantics) SLU with ASR-based transfer learning.
-
-We encode input waveforms into features using a model trained on LibriSpeech,
-then feed the features into a seq2seq model to map them to semantics.
-
-(Adapted from the LibriSpeech seq2seq ASR recipe written by Ju-Chieh Chou, Mirco Ravanelli, Abdel Heba, and Peter Plantinga.)
-
-Run using:
-> python train.py hparams/train.yaml
-
-Authors
- * Loren Lugosch 2020
- * Mirco Ravanelli 2020
-"""
 
 import sys
 import torch

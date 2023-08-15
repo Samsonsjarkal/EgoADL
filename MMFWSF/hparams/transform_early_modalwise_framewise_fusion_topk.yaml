@@ -4,8 +4,7 @@
 # Decoder: Transformer Decoder + (CTC/ATT joint) beamsearch
 # Tokens: word
 # losses: CTC + KLdiv (Label Smoothing loss)
-# Training: EgoLife
-# Authors:  Ke Sun
+## Training: EgoADL
 # ############################################################################
 # Seed needs to be set at top of yaml, before objects with parameters are made
 seed: 9876
