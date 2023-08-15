@@ -15,6 +15,8 @@ In this repo we will opensource
 
 - [Deep learning algorithm](#mmfwsf), i.e.,  Multi-Modal Frame-Wise Slow-Fast (MMFWSF) transformer [[1]](#1).
 
+- Dataset: https://doi.org/10.5281/zenodo.8248159 
+
 ## Data collection
 Our data collection tool is an Android APP that can be easily install on Android smartphone, which collect audio recording, motion sensor and Wi-Fi CSI. Please refer to ```/data-collection``` for the code of Android APP ```EgoMotion```.
 
@@ -252,6 +254,8 @@ After that we will recieve a ```csv``` file that contains all the annotation inf
 - ```starttime```: start time of the human behavior in that session
 
 ## MMFWSF
+
+The training and testing code is in ```/MMFWSF```. We use the [speechbrain](https://speechbrain.github.io/) as the template for EgoADL. Please check how to use it in [speechbrain](https://speechbrain.github.io/).
 
 ## Reference
 
