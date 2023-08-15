@@ -16,18 +16,9 @@ wer_file: !ref <output_folder>/wer.txt
 save_folder: !ref <output_folder>/save
 train_log: !ref <output_folder>/train_log.txt
 
-
-# Language model (LM) pretraining
-# NB: To avoid mismatch, the speech recognizer must be trained with the same
-# tokenizer used for LM training. Here, we download everything from the
-# speechbrain HuggingFace repository. However, a local path pointing to a
-# directory containing the lm.ckpt and tokenizer.ckpt may also be specified
-# instead. E.g if you want to use your own LM / tokenizer.
-# pretrained_lm_tokenizer_path: /home/kesun/speechbrain/recipes/LibriSpeech/ASR/transformer/pretrain
-
 # Data files
 dataset_csv: ../Dataclean/datalist_balance_0304_25_15.csv
-data_folder: /data/kesun_EgoLife/dataset_seg #
+data_folder: /dataset_seg #
 skip_prep: False
 csv_train: !ref <output_folder>/train-type=uniact.csv
 csv_valid: !ref <output_folder>/valid-type=uniact.csv
